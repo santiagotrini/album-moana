@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  background: url("img/background.jpg");
+  background-size: cover;
+}
+
+button:disabled {
+  text-decoration: line-through;
+}
+
+button {
+  border-radius: 50%;
+  border: 3px solid cornsilk;
+  background-color: transparent;
+  color:cornsilk;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
