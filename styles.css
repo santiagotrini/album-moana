@@ -1,9 +1,13 @@
-body {
+.container {
   display: flex;
   flex-flow: row wrap;
   gap: 10px;
   /*background: url("img/background.jpg");
   background-size: cover;*/
+}
+
+h2 {
+  font-family: sans-serif;
 }
 
 button:disabled {
