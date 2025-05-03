@@ -5,13 +5,14 @@ if (figus.length == 0) {
   }
 }
 let k = 0;
+let container = document.querySelector('.container');
 for (let i = 0; i < 180; i++) {
   let btn = document.createElement('button');
   btn.textContent = i + 1;
   if (figus[i] == true) btn.disabled = true;
   else k++;
   btn.onclick = handleClick;
-  document.body.append(btn);
+  container.append(btn);
 }
 let h2 = document.querySelector('h2');
 h2.textContent = 'Faltan ' + k + ' figus';
